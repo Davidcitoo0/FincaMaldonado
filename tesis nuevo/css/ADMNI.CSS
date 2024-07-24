@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo {
+    margin: 0;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu-lista {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-lista li {
+    display: inline;
+}
+
+.menu-lista li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-lista li a:hover {
+    background-color: #555;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.seccion {
+    margin-bottom: 40px;
+}
+
+.seccion-titulo {
+    color: #007bff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-texto {
+    margin: 0;
+}
+
+/* Estilos específicos para los elementos de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para botones */
+button,
+.login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+.login-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Estilos para el enlace de "olvidaste tu contraseña" */
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
